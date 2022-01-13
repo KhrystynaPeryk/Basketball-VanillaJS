@@ -1,0 +1,51 @@
+#task {
+    position: relative;
+    display: inline-block;
+    left: 30%;
+}
+#court {
+    position: relative;
+    width: 600px;
+    height: 330px;
+
+}
+#ball {
+    position: absolute;
+    left: 47%;
+    top: 40%;
+    width: 40px;
+    height: 40px;
+    transition: all 1s;
+}
+#scoreBoard{
+    display: flex;
+    margin: auto;
+    width: 590px;
+}
+#scroreBoardA {
+    flex: 1;
+}
+#scroreBoardB {
+    flex: 1;
+    text-align:right;
+}
+.scoreP {
+    margin: 0;
+}
+#scoreNotification {
+    text-align: center;
+}
+#divForScoreA {
+    position: absolute;
+    top: 43%;
+    left: 5%;
+    width: 15px;
+    height: 15px;
+}
+#divForScoreB {
+    position: absolute;
+    top: 43%;
+    right: 5%;
+    width: 15px;
+    height: 15px;
+}
